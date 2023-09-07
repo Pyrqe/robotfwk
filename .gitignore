@@ -19,3 +19,10 @@ ENV/
 /results
 pabot_results/*
 resuts/*
+<<<<<<< HEAD
+=======
+log.html
+output.xml
+playwright-log.txt
+report.html
+>>>>>>> b1fe0ca6ab47e867a5f59f01afc4349cad7cdf83

@@ -9,6 +9,7 @@
     
         "browser_settings": {
             "browser_timeout": 15,
+            "headless": false,
             "playwright_debug": false
         },
 

@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation        Thid file contains web login tests
-Resource    C:/Coding/robotfwk/web/page_objects/login_page.resource
-Resource    C:/Coding/robotfwk/web/web_resources/web_setup.resource
+Resource    web/page_objects/login_page.resource
+Resource    web/web_resources/web_setup.resource
 
 Suite Setup  Open browser context
 Test Teardown  Tear down web test
@@ -16,4 +16,3 @@ As a user I should be able to login with valid credentials
     Enter text into email field
     Enter text into password field
     Click sign in button
-    Sleep  5s

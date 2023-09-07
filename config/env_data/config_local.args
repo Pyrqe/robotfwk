@@ -11,6 +11,6 @@
 --variable images_dir:artifacts/web_screen_compare_baseline
 
 # if qaportal=true use QaPortalTestExecutionEnvironment.json
---variable QAPORTA:True
+--variable QAPORTAL:True
 --variable BROWSER:Chromium
 --variable APIVERSION:1.0

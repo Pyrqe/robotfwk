@@ -1,11 +1,12 @@
 *** Settings ***
 Documentation     This is the page file for login page of test page ultimate QA
-Resource          C:/Coding/robotfwk/web/web_resources/web_common.resource
+Resource          web/web_resources/web_common.resource
+
 
 *** Variables ***
-${EMAIL_FIELD}        /#user[email]
-${PASSWORD_FIELD}     /#user[password]
-${SIGN_IN_BTN}        button .button
+${EMAIL_FIELD}        [placeholder='Email']
+${PASSWORD_FIELD}     [placeholder='Password']
+${SIGN_IN_BTN}        button.button
 
 *** Keywords ***
 Enter text into email field

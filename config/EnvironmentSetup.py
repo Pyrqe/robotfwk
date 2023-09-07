@@ -7,7 +7,7 @@ from robot.libraries.BuiltIn import BuiltIn
 folderWithEnvFiles = "C:/Coding/robotfwk/config/env_data"
 LocalFilePath = os.path.join(folderWithEnvFiles,"LocalTestExecutionEnvironments.json")
 RemoteFilePath = os.path.join(folderWithEnvFiles,"RemoteTestExecutionEnvironments.json")
-QaEnvFilePath = os.path.join(".QaTestExecutionEnvironment.json")
+QaEnvFilePath = os.path.join("QaTestExecutionEnvironment.json")
 
 class EnvironmentSetup:
     ROBOT_LIBRARY_SCOPE = "GLOBAL"
@@ -81,6 +81,8 @@ class EnvironmentSetup:
             self.PAGE_URL = env["urls"]["page_url"]
             self.PAGE_NAME = env["urls"]["page_name"]
             self.BROWSER_TIMEOUT = env["browser_settings"]["browser_timeout"]
+            self.PLAYWRIGHT_DEBUG = env["browser_settings"]["playwright_debug"]
+            self.HEADLESS = env["browser_settings"]["headless"]
 
         except AssertionError as error:
             logger.console(error)

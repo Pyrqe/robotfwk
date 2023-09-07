@@ -19,3 +19,8 @@ ENV/
 /results
 pabot_results/*
 resuts/*
+log.html
+output.xml
+playwright-log.txt
+report.html
+.gitignore

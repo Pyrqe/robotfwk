@@ -1,0 +1,16 @@
+# Variables for setting up the test execution environment locally
+
+--variable ENVIRONMENT:Staging
+
+# If local=true and remote=true use screen sharing to run locally, if local=false and remote=true use AWS EC2
+--variable LOCAL:True
+--variable REMOTE:True
+--variable DEBUG:false
+
+# directory for comparison images
+--variable images_dir:artifacts/web_screen_compare_baseline
+
+# if qaportal=true use QaPortalTestExecutionEnvironment.json
+--variable QAPORTA:True
+--variable BROWSER:Chromium
+--variable APIVERSION:1.0

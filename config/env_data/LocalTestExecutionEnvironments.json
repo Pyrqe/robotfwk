@@ -1,0 +1,22 @@
+{
+    "environments": [
+    {
+        "environment": "Staging",
+        "urls":{
+            "page_url":"https://courses.ultimateqa.com/users/sign_in",
+            "page_name":"Sigh In"
+        },
+    
+        "browser_settings": {
+            "browser_timeout": 15,
+            "playwright_debug": false
+        },
+
+        "web_logins": {
+            "login_email": "pira1989@yahoo.com",
+            "login_password": "1Lolypop"
+        }
+
+    }
+]
+}
